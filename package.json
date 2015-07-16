@@ -1,14 +1,12 @@
 {
-  "name": "mapbox",
+  "name": "mapbox-fork",
   "version": "1.0.0",
-  "description": "interface to mapbox services",
-  "main": "lib/client.js",
-  "scripts": {
-    "test": "tap --coverage test/*.js"
-  },
+  "description": "interface to mapbox services-fork",
+  "main": "index.js",
+  "scripts": { },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mapbox/node-mapbox.git"
+    "url": "https://github.com/Cjones90/node-mapbox.git"
   },
   "keywords": [
     "mapbox",
@@ -18,13 +16,9 @@
   ],
   "author": "Tom MacWright",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mapbox/node-mapbox/issues"
-  },
+  "bugs": { },
   "homepage": "https://github.com/mapbox/node-mapbox",
   "devDependencies": {
-    "eslint": "^0.24.1",
-    "tap": "^1.3.1"
   },
   "dependencies": {
     "request": "^2.58.0"
