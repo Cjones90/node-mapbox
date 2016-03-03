@@ -16,6 +16,7 @@ module.exports = function(api_key) {
         return request({
             url: base + '/geocode/mapbox.places/' + encodeURIComponent(_) + '.json?access_token='+api_key
         }, function(err, data) {
+            if(err) { return cb(err, data.body); }
           cb(err, JSON.parse(data.body));
         });
     };
